@@ -1,0 +1,33 @@
+{
+  "name": "pi-doctor",
+  "version": "1.0.0",
+  "description": "Audit repo files for RAG digestibility — find god files, measure chunk fragmentation, and generate split suggestions.",
+  "keywords": ["pi-package", "pi-extension", "doctor", "audit", "rag", "context-engineering", "digestibility"],
+  "author": "nandal <nandal@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nandal/pi-ext",
+    "directory": "doctor"
+  },
+  "homepage": "https://github.com/nandal/pi-ext/tree/main/doctor",
+  "bugs": {
+    "url": "https://github.com/nandal/pi-ext/issues"
+  },
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  }
+}
