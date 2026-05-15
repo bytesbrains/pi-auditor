@@ -1,5 +1,5 @@
 {
-  "name": "pi-auditor",
+  "name": "@bytesbrains/pi-auditor",
   "version": "1.0.0",
   "description": "Audit repo files for RAG digestibility — find god files, measure chunk fragmentation, and generate split suggestions.",
   "keywords": ["pi-package", "pi-extension", "doctor", "audit", "auditor", "rag", "context-engineering", "digestibility"],

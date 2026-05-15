@@ -1,21 +1,21 @@
 # Doctor for Pi
 
-[![npm version](https://img.shields.io/npm/v/pi-auditor)](https://www.npmjs.com/package/pi-auditor)
-[![license](https://img.shields.io/npm/l/pi-auditor)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@bytesbrains/pi-auditor)](https://www.npmjs.com/package/@bytesbrains/pi-auditor)
+[![license](https://img.shields.io/npm/l/@bytesbrains/pi-auditor)](./LICENSE)
 
 > Audit repositories for RAG digestibility — find oversized "god files" that fragment poorly in vector indexes, get split suggestions, and track file size distribution.
 
 ## Install
 
 ```bash
-pi install npm:pi-auditor
+pi install npm:@bytesbrains/pi-auditor
 ```
 
 Or add to your `.pi/settings.json`:
 
 ```json
 {
-  "packages": ["npm:pi-auditor"]
+  "packages": ["npm:@bytesbrains/pi-auditor"]
 }
 ```
 
