@@ -1,6 +1,6 @@
 {
   "name": "@bytesbrains/pi-auditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Audit repo files for RAG digestibility — find god files, measure chunk fragmentation, and generate split suggestions.",
   "keywords": ["pi-package", "pi-extension", "doctor", "audit", "auditor", "rag", "context-engineering", "digestibility"],
   "author": "nandal <nandal@users.noreply.github.com>",
