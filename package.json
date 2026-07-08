@@ -2,16 +2,24 @@
   "name": "@bytesbrains/pi-auditor",
   "version": "1.0.1",
   "description": "Audit repo files for RAG digestibility — find god files, measure chunk fragmentation, and generate split suggestions.",
-  "keywords": ["pi-package", "pi-extension", "doctor", "audit", "auditor", "rag", "context-engineering", "digestibility"],
-  "author": "nandal <nandal@users.noreply.github.com>",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "doctor",
+    "audit",
+    "auditor",
+    "rag",
+    "context-engineering",
+    "digestibility"
+  ],
+  "author": "BytesBrains Pte Ltd (https://bytesbrains.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nandal/pi-ext",
-    "directory": "doctor"
+    "url": "git+https://github.com/bytesbrains/pi-auditor.git"
   },
-  "homepage": "https://github.com/nandal/pi-ext/tree/main/doctor",
+  "homepage": "https://github.com/bytesbrains/pi-auditor#readme",
   "bugs": {
-    "url": "https://github.com/nandal/pi-ext/issues"
+    "url": "https://github.com/bytesbrains/pi-auditor/issues"
   },
   "license": "MIT",
   "main": "./src/index.ts",
@@ -28,6 +36,8 @@
     "typebox": "*"
   },
   "pi": {
-    "extensions": ["./src/index.ts"]
+    "extensions": [
+      "./src/index.ts"
+    ]
   }
 }
